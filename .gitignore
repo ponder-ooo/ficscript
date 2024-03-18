@@ -1,0 +1,7 @@
+.env
+disco/
+__pycache__/
+documents/**/*
+models/**/*
+fictionsuit/.fic
+scratch.py

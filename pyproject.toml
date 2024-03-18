@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "fictionsuit"
+version = "0.1.0"
+description = ""
+authors = ["max brewer <deepfates@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.113"
+"discord.py" = "^2.2.2"
+openai = "^0.27.2"
+tiktoken = "^0.3.1"
+python-dotenv = "^1.0.0"
+goose3 = "^3.1.13"
+aiohttp = "^3.8.4"
+faiss-cpu = "^1.7.3"
+supabase = "^1.0.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
